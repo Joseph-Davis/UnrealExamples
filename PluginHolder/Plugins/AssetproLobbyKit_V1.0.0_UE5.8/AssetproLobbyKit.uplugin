@@ -1,0 +1,56 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Assetpro Lobby Kit",
+	"Description": "A style-neutral multiplayer front end built on CommonUI: play hub, host game, server browser, lobby with teams and ready-up, matchmaking queue, party, friends, text chat, scoreboard, results and connection dialogs, driven by a Blueprintable online provider (engine Online Subsystem sessions by default: LAN games out of the box, a platform service by config). Also a complete menu system: main menu, settings, pause, save and load slots, chapter select, credits, loading screen and HUD essentials. For mouse, keyboard and gamepad. Translated into 11 languages. Re-skin everything from a single Theme data asset (three skins included).",
+	"Category": "User Interface",
+	"CreatedBy": "CodeLikeMe",
+	"CreatedByURL": "https://www.youtube.com/codelikeme",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.patreon.com/cw/CodeLikeMe",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AssetproLobbyKit",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "AssetproLobbyKit",
+			"LoadingPolicy": "Always"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": true
+		}
+	]
+}

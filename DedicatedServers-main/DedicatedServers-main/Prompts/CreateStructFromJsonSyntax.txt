@@ -1,0 +1,14 @@
+Please create a USTRUCT called FStructName. 
+Use the following json data to create the member variables. 
+Add a UPROPERTY() to each variable, and use the property names in the json object as the variable names in the struct. 
+For the "string" properties in the json, make the struct variables have the FString type, 
+and for the "boolean" properties, make the variable a bool. 
+Create a Dump() function for using UE_LOG to log the values, with LogName as the Log type.
+Please don't add any UPROPERTY or USTRUCT specifiers. Use GENERATED_BODY() in the struct.
+Don't add any access specifiers. Don't make any functions inline.
+
+Here is the json object:  
+{ 
+  "StringPropertyName": "string",
+  "BoolPropertyName": "bool",
+}
