@@ -1,0 +1,8 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "VehicleTemplate.h"
+#include "Modules/ModuleManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, VehicleTemplate, "VehicleTemplate" );
+
+DEFINE_LOG_CATEGORY(LogVehicleTemplate)
